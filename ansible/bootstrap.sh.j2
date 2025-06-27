@@ -1,0 +1,16 @@
+#!/bin/bash
+set -e
+
+# Update package lists and install Apache
+#apt-get update -y
+apt-get install -y apache2
+
+# Enable and start Apache service
+systemctl enable apache2
+systemctl start apache2
+
+# Write your index.html into the web directory
+cat > /var/www/html/index.html << 'EOF'
+{{ lookup('file', '../webapp/index.html') }}
+EOF
+
