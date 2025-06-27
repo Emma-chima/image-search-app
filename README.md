@@ -2,6 +2,9 @@
 
 A hands-on project combining **Ansible automation** and a **client-side image search app** built with Vanilla JavaScript. This was my personal journey to master infrastructure provisioning and web deployment.
 
+**🔗 View the live site:** [https://emma-chima.github.io/image-search-app/](https://emma-chima.github.io/image-search-app/)
+
+
 ---
 
 ## 🔍 Project Overview
@@ -94,19 +97,20 @@ A hands-on project combining **Ansible automation** and a **client-side image se
     - The Image Search App should load and function out-of-the-box
 
 
-**💻 Local Front-End (Optional)**
-To run the client-side app locally:
 
-Copy webapp/index.html to your local folder.
+## **💻 Local Front-End (Optional)**
+    To run the client-side app locally:
 
-Open it in your browser—no server or build tools required.
+    Copy webapp/index.html to your local folder.
 
-Add your Unsplash API access key in the script.
+    Open it in your browser—no server or build tools required.
+
+    Add your Unsplash API access key in the script.
 
 
-**⚡ License**
+### **⚡ License**
 This project is released under the MIT License. Feel free to use, modify, and distribute!
 
 
-**🤝 About Me**
+### **🤝 About Me**
 This repository is part of my learning journey in Ansible, cloud provisioning, and web development. I’m excited to grow and refine these skills, feedback and star ❤️ are always appreciated!
